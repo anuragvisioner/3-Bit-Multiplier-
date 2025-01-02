@@ -1,0 +1,10 @@
+Test at time = 0 : input 1 = 011 	 input 2 = 011 	 product = 001001 
+Test at time = 0 : input 1 = 3 		 input 2 = 3 	 product =  9 
+Test at time = 1 : input 1 = 101 	 input 2 = 111 	 product = 100011 
+Test at time = 1 : input 1 = 5 		 input 2 = 7 	 product = 35 
+Test at time = 2 : input 1 = 011 	 input 2 = 000 	 product = 000000 
+Test at time = 2 : input 1 = 3 		 input 2 = 0 	 product =  0 
+Test at time = 3 : input 1 = 101 	 input 2 = 101 	 product = 011001 
+Test at time = 3 : input 1 = 5 		 input 2 = 5 	 product = 25 
+Test at time = 4 : input 1 = 111 	 input 2 = 111 	 product = 110001 
+Test at time = 4 : input 1 = 7 		 input 2 = 7 	 product = 49 
