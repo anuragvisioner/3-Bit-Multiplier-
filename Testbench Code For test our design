@@ -1,0 +1,23 @@
+// Code your testbench here
+// or browse Examples
+module multiplier_tb();
+  
+  reg [2:0] at,bt;
+  
+  wire [5:0] pt;
+  
+  multiplier  mul_inst(.a(at), .b(bt), .p(pt));
+  
+  initial 
+    begin
+      
+      $monitor("Test at time = %0d : input 1 = %b \t input 2 = %b \t product = %b \nTest at time = %0d : input 1 = %d \t\t input 2 = %d \t product = %d ", $time, at, bt, pt, $time, at, bt, pt);
+      
+      //put value for test
+      		at = 3'b011; bt = 3'b011;
+      #1 	at = 3'b101; bt = 3'b111;
+      #1    at = 3'b011; bt = 3'b000;
+      #1	at = 3'b101; bt = 3'b101;
+      #1	at = 3'b111; bt = 3'b111;
+    end 
+endmodule
